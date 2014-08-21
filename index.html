@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title>Matt Pryor - Curriculum Vitae</title>
   <style type="text/css">code{white-space: pre;}</style>
   <!--[if lt IE 9]>
@@ -178,7 +179,7 @@
 <header>
 <h1 class="title">Matt Pryor - Curriculum Vitae</h1>
 </header>
-<section class="level1">
+<section id="contact-details" class="level1">
 <h1>Contact details</h1>
 <dl>
 <dt>Address</dt>
@@ -197,88 +198,71 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 </dd>
 </dl>
 </section>
-<section class="level1">
+<section id="skills-summary" class="level1">
 <h1>Skills Summary</h1>
 <dl>
 <dt>Languages/libraries</dt>
 <dd><ul>
-<li><p><strong>Expertise in:</strong> Fortran, MPI, OpenMP, netCDF/HDF5, Python, Numpy, Scipy, Jinja2, PyGTK, Plone, Bash/shell scripting, R, PHP (+ Hack/HHVM), Wordpress, HTML, CSS, Javascript, jQuery, d3.js, Markdown, reStructuredText</p></li>
-<li><p><strong>Familiar with:</strong> C, C++, C# (+ LINQ), Java, Ruby</p></li>
+<li><strong>Expertise in:</strong> Fortran, MPI, OpenMP, netCDF/HDF5, Python, Numpy, Scipy, Jinja2, Plone, Bash/shell scripting, R, PHP (+ Hack/HHVM), Wordpress, HTML, CSS, Javascript, jQuery, d3.js, Markdown, reStructuredText</li>
+<li><strong>Familiar with:</strong> C, C++, C# (+ LINQ), Java</li>
 </ul>
 </dd>
 <dt>Tools/platforms</dt>
 <dd><ul>
-<li><p><strong>High-performance computing:</strong> IBM Power 6/7 supercomputer, XLF compiler, LoadLeveler job scheduler</p></li>
-<li><p><strong>Compilers/debuggers/profilers:</strong> GNU and Intel compilers (Fortran, C, C++), gdb/idb, Valgrind</p></li>
-<li><p><strong>Code and code management:</strong> Subversion, Trac, Git, Eclipse, Netbeans</p></li>
-<li><p>Sphinx documentation generator</p></li>
-<li><p>Linux/UNIX</p></li>
+<li><strong>High-performance computing:</strong> IBM Power 6/7 supercomputer, XLF compiler, LoadLeveler job scheduler</li>
+<li><strong>Compilers/debuggers/profilers:</strong> GNU and Intel compilers (Fortran, C, C++), gdb/idb, Valgrind</li>
+<li><strong>Editors and code management:</strong> Subversion, Trac, Git, Eclipse, Netbeans</li>
+<li>Sphinx documentation generator</li>
+<li>Linux/UNIX</li>
 </ul>
 </dd>
 </dl>
 </section>
-<section class="level1">
+<section id="work-experience" class="level1">
 <h1>Work Experience</h1>
 <dl>
 <dt>Senior Scientific Software Engineer, Met Office, 2008 - present</dt>
 <dd><ul>
-<li><p>Technical lead and community contact for the <a href="https://jules.jchmr.org/">JULES land surface model</a>.</p>
-<ul>
-<li><p>Large Fortran 90/95 program - ~25,000 lines of code</p></li>
-<li><p>Can be run either as a standalone model or as part of the <a href="http://www.metoffice.gov.uk/research/modelling-systems/unified-model">Met Office Unified Model</a>.</p></li>
-<li><p>Involves collaboration with scientists and other technical teams within the Met Office.</p></li>
-</ul>
-<p><strong>Skills:</strong> Fortran, communication, problem solving, team working</p></li>
-<li><p>Designed JULES website and maintain the content.</p>
-<p><strong>Skills:</strong> Python, Plone, HTML, CSS, written communication</p></li>
-<li><p>Initiated the migration of JULES standalone development into a source control system and played a large part in the development of coding standards and procedures for incorporating community code.</p>
-<p><strong>Skills:</strong> Subversion, Trac, community laison</p></li>
-<li><p>Designed and implemented the JULES I/O and user interface in a modular and extensible way.</p>
-<p><strong>Skills:</strong> Fortran, netCDF, program design</p></li>
-<li><p>Designed and implemented parallel scheme for JULES.</p>
-<p><strong>Skills:</strong> MPI, parallel netCDF/HDF5, program design</p></li>
-<li><p>Ported the JULES documentation from a single, large Word document to the Sphinx documentation system, allowing the generation of HTML and PDF documentation from the same source files.</p>
-<p><strong>Skills:</strong> Python, Sphinx, reStructuredText, HTML, CSS</p></li>
-<li><p>Implemented a benchmarking suite for JULES that generates HTML reports with interactive graphs based on comparisons of model runs against known-good-output and observations.</p>
-<p><strong>Skills:</strong> R, Python, Numpy, Scipy, Jinja2, HTML, CSS, Javascript, d3.js (for interactive visualisations)</p></li>
-<li><p>Implemented a GUI and automated testing suite for JULES.</p>
-<p><strong>Skills:</strong> Python, PyGTK, Jinja2, <a href="http://www.metoffice.gov.uk/research/collaboration/rose">Rose system</a> (developed by the Met Office)</p></li>
-<li><p>Technical lead on an international project to include the Australian land-surface model and JULES under a common coupling framework.</p>
-<p><strong>Skills:</strong> Fortran, communication, leadership</p></li>
-<li><p>Member of the JULES steering committee and UM Project board.</p>
-<p><strong>Skills:</strong> Communication, community representation</p></li>
-<li><p>Co-supervised internal secondment project aimed at increasing the throughput of JULES, using both traditional profiling and by investigating the use of co-processors (Intel Xeon Phi) and GPUs.</p>
-<p><strong>Skills:</strong> Fortran, communication, leadership</p></li>
+<li>Technical lead and community contact for <a href="https://jules.jchmr.org/">JULES</a>, a land-surface model written in Fortran that can be run either as a standalone model or as part of the <a href="http://www.metoffice.gov.uk/research/modelling-systems/unified-model">Met Office Unified Model</a>.</li>
+<li>Committer to the <a href="https://github.com/metomi/fcm">FCM</a> and <a href="https://github.com/metomi/rose">Rose</a> repositories. Both systems are open-source tools developed primarily by the Met Office - FCM is a code management and Fortran build system and Rose is a tool for managing and executing suites of model runs.</li>
+<li>Designed JULES website and maintain the content.</li>
+<li>Migrated JULES development to a source control system and developed of coding standards and procedures for incorporating community code.</li>
+<li>Designed and implemented the JULES I/O and user interface in a modular and extensible way.</li>
+<li>Designed and implemented parallel scheme for JULES using MPI.</li>
+<li>Ported the JULES documentation from a single, large Word document to the Sphinx documentation system, allowing the generation of HTML and PDF documentation from the same source files.</li>
+<li>Implemented a benchmarking suite (initially using R, later Python/Numpy/Scipy) for JULES that generates HTML reports with interactive graphs based on comparisons of model runs against known-good-output and observations.</li>
+<li>Implemented a GUI and automated testing suite for JULES.</li>
+<li>Technical lead on an international project to include the Australian land-surface model and JULES under a common coupling framework.</li>
+<li>Member of the JULES steering committee and UM Project board.</li>
+<li>Co-supervised internal secondment project aimed at increasing the throughput of JULES, using both traditional profiling and by investigating the use of co-processors (Intel Xeon Phi) and GPUs.</li>
+<li>Designed and delivered &quot;Introduction to JULES&quot; training at JULES conference.</li>
 </ul>
 </dd>
 <dt>Systems Engineering &amp; Assessment Ltd</dt>
 <dd><dl>
 <dt>Christmas 2007</dt>
-<dd><p>Troubleshooting components of a distributed transport sector IT system as part of a team. Required rapid understanding of the application and technologies used.</p>
-<p><strong>Skills:</strong> Java, HTML, CSS, XSLT, Subversion, Trac, Eclipse, team working</p>
+<dd><p>Troubleshooting components of a distributed transport sector IT system, written in Java with a web interface, as part of a team.</p>
 </dd>
 <dt>June 2007 - Sept 2007</dt>
-<dd><p>One of a team developing and testing components of a railway signalling design tool in accordance with a UML model.</p>
-<p><strong>Skills:</strong> C#, .NET, NUnit, NCover, Visual Studio, Subversion, Trac, team working</p>
+<dd><p>One of a team developing and testing components of a railway signalling design tool - a desktop application written in C# - in accordance with a UML model.</p>
 </dd>
 <dt>Christmas 2005</dt>
-<dd><p>Contracted to develop a mini-site to interact with a distributed message management system. Independent working and self-motivation skills were required.</p>
-<p><strong>Skills:</strong> Object-oriented PHP, HTML, CSS, Javascript, Subversion, Eclipse, independent working, time management</p>
+<dd><p>Contracted to develop a mini-site (using PHP/HTML/CSS/Javascript) to interact with a distributed message management system. Independent working and self-motivation skills were required.</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </section>
-<section class="level1">
+<section id="publications" class="level1">
 <h1>Publications</h1>
 <ul>
-<li><p>Clark D B, Mercado L M, Sitch S, Jones C D, Gedney N, Pryor M, Rooney G G, Essery R L H, Blyth E, Boucher O, Harding R J, Huntingford C, Cox P M (2011) The Joint UK Land Environment Simulator (JULES), model description - Part 2: carbon fluxes and vegetation dynamics, <em>Geoscientific Model Development</em>, 4, 701-722. <a href="doi:10.5194/gmd-4-701-2011">doi:10.5194/gmd-4-701-2011</a></p></li>
-<li><p>Best M, Pryor M, Clark D B, Rooney G G, Essery R L H, Ménard C B, Edwards J M, Hendry M A, Porson A, Gedney N, Mercado L M, Sitch S, Blyth E, Boucher O, Cox P M, Grimmond C S B, Harding R J (2011) The Joint UK Land Environment Simulator (JULES), model description – Part 1: Energy and water fluxes, <em>Geoscientific Model Development</em>, 4, 677-699. <a href="doi:10.5194/gmd-4-677-2011">doi:10.5194/gmd-4-677-2011</a></p></li>
-<li><p>Blyth E, Clark D B, Ellis R, Huntingford C, Los S, Pryor M, Best M, and Sitch S, A comprehensive set of benchmark tests for a land surface model of simultaneous fluxes of water and carbon at both the global and seasonal scale, <em>Geoscientific Model Development</em>, 4, 255-269. <a href="doi:10.5194/gmd-4-255-2011">doi:10.5194/gmd-4-255-2011</a></p></li>
-<li><p>Blyth E, Gash J, Lloyd A, Pryor M, Weedon G P, Shuttleworth J (2010) Evaluating the JULES Land Surface Model energy fluxes using FLUXNET data, <em>Journal of Hydrometeorology</em>, 11, 509-519. <a href="doi:10.1175/2009JHM1183.1">doi:10.1175/2009JHM1183.1</a></p></li>
+<li>Clark D B, Mercado L M, Sitch S, Jones C D, Gedney N, Pryor M, Rooney G G, Essery R L H, Blyth E, Boucher O, Harding R J, Huntingford C, Cox P M (2011) The Joint UK Land Environment Simulator (JULES), model description - Part 2: carbon fluxes and vegetation dynamics, <em>Geoscientific Model Development</em>, 4, 701-722. <a href="doi:10.5194/gmd-4-701-2011">doi:10.5194/gmd-4-701-2011</a></li>
+<li>Best M, Pryor M, Clark D B, Rooney G G, Essery R L H, Ménard C B, Edwards J M, Hendry M A, Porson A, Gedney N, Mercado L M, Sitch S, Blyth E, Boucher O, Cox P M, Grimmond C S B, Harding R J (2011) The Joint UK Land Environment Simulator (JULES), model description – Part 1: Energy and water fluxes, <em>Geoscientific Model Development</em>, 4, 677-699. <a href="doi:10.5194/gmd-4-677-2011">doi:10.5194/gmd-4-677-2011</a></li>
+<li>Blyth E, Clark D B, Ellis R, Huntingford C, Los S, Pryor M, Best M, and Sitch S, A comprehensive set of benchmark tests for a land surface model of simultaneous fluxes of water and carbon at both the global and seasonal scale, <em>Geoscientific Model Development</em>, 4, 255-269. <a href="doi:10.5194/gmd-4-255-2011">doi:10.5194/gmd-4-255-2011</a></li>
+<li>Blyth E, Gash J, Lloyd A, Pryor M, Weedon G P, Shuttleworth J (2010) Evaluating the JULES Land Surface Model energy fluxes using FLUXNET data, <em>Journal of Hydrometeorology</em>, 11, 509-519. <a href="doi:10.1175/2009JHM1183.1">doi:10.1175/2009JHM1183.1</a></li>
 </ul>
 </section>
-<section class="level1">
+<section id="education" class="level1">
 <h1>Education</h1>
 <ul>
 <li>MMath (Hons.) Mathematics, University of Bath, 2008, 2:1</li>
@@ -286,13 +270,13 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <li>GCSEs, John of Gaunt School, 2002 - 7 A*s, 2 As</li>
 </ul>
 </section>
-<section class="level1">
-<h1>Hobbies and other activities</h1>
+<section id="hobbies-other-activities" class="level1">
+<h1>Hobbies + Other Activities</h1>
 <ul>
-<li><p>Netball site + other programming</p></li>
-<li><p>Reading feeds</p></li>
-<li><p>Rugby</p></li>
-<li><p>Music</p></li>
+<li>I like to keep up-to-date with programming technologies, and I read several RSS feeds every day. Through this, I have been exposed to many interesting languages and concepts, including different paradigms (e.g. object-oriented, functional) and some more esoteric languages (e.g. Haskell, Erlang).</li>
+<li>My side-projects, which I use to explore new concepts and features, are generally written in PHP. Some are publicly available at <a href="https://bitbucket.org/mkjpryor">https://bitbucket.org/mkjpryor</a>, although the testing and documentation is generally sparse.</li>
+<li>Developed website for Wallingford Netball Club using PHP and Wordpress - see <a href="http://www.wallingfordnetball.co.uk">http://www.wallingfordnetball.co.uk</a>.</li>
+<li>Currently play rugby for the Wallingford RFC 1st team.</li>
 </ul>
 </section>
 </body>
