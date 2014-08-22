@@ -115,6 +115,18 @@
       margin-bottom : 15px;
   }
   
+  table {
+      width : 100%;
+  }
+  
+  td {
+      width : 50%;
+  }
+  
+  table dd:last-child {
+      margin-bottom : 0px;
+  }
+  
   strong {
       font-weight : bold;
       font-style : italic;
@@ -181,10 +193,10 @@
 </header>
 <section id="contact-details" class="level1">
 <h1>Contact details</h1>
-<dl>
-<dt>Address</dt>
-<dd><p>Maclean Building<br />Benson Lane<br />Crowmarsh Gifford<br />Wallingford<br />Oxfordshire<br />OX10 8BB</p>
-</dd>
+<table>
+<col style="width: 54%" /><col style="width: 45%" /><tbody>
+<tr class="odd">
+<td style="text-align: left;"><dl>
 <dt>Email</dt>
 <dd><p><script type="text/javascript">
 <!--
@@ -196,14 +208,22 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <dt>Telephone</dt>
 <dd><p>W: 01491 692475<br />M: 07776 467284</p>
 </dd>
-</dl>
+</dl></td>
+<td style="text-align: left;"><dl>
+<dt>Address</dt>
+<dd><p>Maclean Building<br />Benson Lane<br />Crowmarsh Gifford<br />Wallingford<br />Oxfordshire<br />OX10 8BB</p>
+</dd>
+</dl></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="skills-summary" class="level1">
-<h1>Skills Summary</h1>
+<section id="technical-skills-summary" class="level1">
+<h1>Technical Skills Summary</h1>
 <dl>
 <dt>Languages/libraries</dt>
 <dd><ul>
-<li><strong>Expertise in:</strong> Fortran, MPI, OpenMP, netCDF/HDF5, Python, Numpy, Scipy, Jinja2, Plone, Bash/shell scripting, R, PHP (+ Hack/HHVM), Wordpress, HTML, CSS, Javascript, jQuery, d3.js, Markdown, reStructuredText</li>
+<li><strong>Expertise in:</strong> Fortran, MPI, OpenMP, netCDF/HDF5, Python, Numpy, Scipy, Jinja2, Plone, Bash/shell scripting, R, IDL, PHP (+ Hack/HHVM), Wordpress, HTML, CSS, Javascript, jQuery, d3.js, Markdown, reStructuredText</li>
 <li><strong>Familiar with:</strong> C, C++, C# (+ LINQ), Java</li>
 </ul>
 </dd>
@@ -214,6 +234,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <li><strong>Editors and code management:</strong> Subversion, Trac, Git, Eclipse, Netbeans</li>
 <li>Sphinx documentation generator</li>
 <li>Linux/UNIX</li>
+<li>Microsoft Windows/Office applications</li>
 </ul>
 </dd>
 </dl>
@@ -221,12 +242,12 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <section id="work-experience" class="level1">
 <h1>Work Experience</h1>
 <dl>
-<dt>Senior Scientific Software Engineer, Met Office, 2008 - present</dt>
+<dt>Senior Scientific Software Engineer, Met Office, Wallingford, 2008 - present</dt>
 <dd><ul>
 <li>Technical lead and community contact for <a href="https://jules.jchmr.org/">JULES</a>, a land-surface model written in Fortran that can be run either as a standalone model or as part of the <a href="http://www.metoffice.gov.uk/research/modelling-systems/unified-model">Met Office Unified Model</a>.</li>
 <li>Committer to the <a href="https://github.com/metomi/fcm">FCM</a> and <a href="https://github.com/metomi/rose">Rose</a> repositories. Both systems are open-source tools developed primarily by the Met Office - FCM is a code management and Fortran build system and Rose is a tool for managing and executing suites of model runs.</li>
 <li>Designed JULES website and maintain the content.</li>
-<li>Migrated JULES development to a source control system and developed of coding standards and procedures for incorporating community code.</li>
+<li>Migrated JULES development to a source control system and developed coding standards and procedures for incorporating code from the scientific community.</li>
 <li>Designed and implemented the JULES I/O and user interface in a modular and extensible way.</li>
 <li>Designed and implemented parallel scheme for JULES using MPI.</li>
 <li>Ported the JULES documentation from a single, large Word document to the Sphinx documentation system, allowing the generation of HTML and PDF documentation from the same source files.</li>
@@ -238,7 +259,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <li>Designed and delivered &quot;Introduction to JULES&quot; training at JULES conference.</li>
 </ul>
 </dd>
-<dt>Systems Engineering &amp; Assessment Ltd</dt>
+<dt>Systems Engineering &amp; Assessment Ltd, Bristol, 2005/2007</dt>
 <dd><dl>
 <dt>Christmas 2007</dt>
 <dd><p>Troubleshooting components of a distributed transport sector IT system, written in Java with a web interface, as part of a team.</p>
@@ -273,10 +294,11 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <section id="hobbies-other-activities" class="level1">
 <h1>Hobbies + Other Activities</h1>
 <ul>
-<li>I like to keep up-to-date with programming technologies, and I read several RSS feeds every day. Through this, I have been exposed to many interesting languages and concepts, including different paradigms (e.g. object-oriented, functional) and some more esoteric languages (e.g. Haskell, Erlang).</li>
+<li>I currently play rugby for the Wallingford RFC 1st team.</li>
+<li>I am a keen musician, and have obtained Grade 8 on the oboe and also play the drums.</li>
+<li>I developed a website for Wallingford Netball Club using PHP and Wordpress - see <a href="http://www.wallingfordnetball.co.uk">http://www.wallingfordnetball.co.uk</a>.</li>
 <li>My side-projects, which I use to explore new concepts and features, are generally written in PHP. Some are publicly available at <a href="https://bitbucket.org/mkjpryor">https://bitbucket.org/mkjpryor</a>, although the testing and documentation is generally sparse.</li>
-<li>Developed website for Wallingford Netball Club using PHP and Wordpress - see <a href="http://www.wallingfordnetball.co.uk">http://www.wallingfordnetball.co.uk</a>.</li>
-<li>Currently play rugby for the Wallingford RFC 1st team.</li>
+<li>I like to keep up-to-date with programming technologies, and I read several RSS feeds every day. Through this, I have been exposed to many interesting languages and concepts, including different paradigms (e.g. object-oriented, functional) and some more esoteric languages (e.g. Haskell, Erlang).</li>
 </ul>
 </section>
 </body>
